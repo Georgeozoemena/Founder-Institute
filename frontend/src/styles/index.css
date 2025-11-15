@@ -1,0 +1,23 @@
+/* src/styles/index.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-gray-900 antialiased;
+}
+
+/* Typography defaults */
+h1, h2, h3, h4 {
+  @apply font-semibold text-gray-900;
+}
+
+p {
+  @apply text-gray-600 leading-relaxed;
+}
